@@ -57,6 +57,9 @@ srv/_*.py
 qtcreator-*
 *.user
 
+# vscode
+*.vscode
+
 *~
 
 # Emacs
