@@ -12,7 +12,7 @@ from launch.substitutions import Command, LaunchConfiguration, PythonExpression
 
 def generate_launch_description():
   this_directory = get_package_share_directory('ouster_description')
-  xacro_path = os.path.join(this_directory, 'urdf', 'os1_64_example.urdf.xacro')
+  xacro_path = os.path.join(this_directory, 'urdf', 'os1_32_example.urdf.xacro')
   world = os.path.join(this_directory, 'worlds', 'test.world')
   rviz_config_file = os.path.join(this_directory, 'rviz', 'test.rviz')
 

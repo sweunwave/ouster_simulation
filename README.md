@@ -1,5 +1,5 @@
 # Ouster Simulation
-A Gazebo Classic plugin-based simulation of the Ouster LiDAR sensor. 
+A Gazebo Classic plugin-based simulation of the Ouster LiDAR sensor.   
 This package publishes point cloud data in `sensor_msgs/msg/PointCloud2` format and is designed for use in simulation environments.
 
 ![alt text](img/gazebo.png)
@@ -20,6 +20,7 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --package
 # 🚀 Launch Example
 ```
 ros2 launch ouster_description os1_64_alone.launch.py
+ros2 launch ouster_description os1_32_alone.launch.py
 ```
 
 # 📦 Based On
