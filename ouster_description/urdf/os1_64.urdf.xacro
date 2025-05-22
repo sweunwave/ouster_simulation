@@ -45,7 +45,7 @@
         <origin xyz="0 0 0.3" rpy="0 0 0"/>
         <geometry>
           <!-- <mesh filename="$(find ouster_description)/meshes/${file_visual}.stl" /> -->
-          <mesh filename="$(find ouster_description)/meshes/${file_visual}.dae" />
+          <mesh filename="file://$(find ouster_description)/meshes/${file_visual}.dae" />
         </geometry>
       </visual>
     </link>
