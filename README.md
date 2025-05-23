@@ -20,8 +20,19 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --package
 # 🚀 Launch Example
 ```
 ros2 launch ouster_description os1_64_alone.launch.py
+ros2 launch ouster_description os1_64_alone.launch.py gpu:=true
+  
 ros2 launch ouster_description os1_32_alone.launch.py
+ros2 launch ouster_description os1_32_alone.launch.py gpu:=true
 ```
+## GPU Option
+* gpu:=false
+
+![alt text](img/gpu_false.png)  
+
+* gpu:=true
+
+![alt text](img/gpu_true.png)
 
 # 📦 Based On
 * https://github.com/wilselby/ouster_example.git
