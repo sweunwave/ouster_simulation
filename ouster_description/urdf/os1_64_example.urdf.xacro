@@ -33,7 +33,7 @@
   </link>
 
   <xacro:include filename="$(find ouster_description)/urdf/os1_64.urdf.xacro"/>
-  <xacro:os1_64 parent="base_footprint" name="os" prefix="/ouster" hz="10" samples="512">
+  <xacro:os1_64 parent="base_footprint" name="os" prefix="/ouster" hz="10" samples="512" gpu="${gpu}">
     <origin xyz="0 0 0.4" rpy="0 0 0" />
   </xacro:os1_64>
 

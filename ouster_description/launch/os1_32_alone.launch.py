@@ -18,7 +18,7 @@ def generate_launch_description():
 
   declare_gpu_cmd = DeclareLaunchArgument(
     'gpu',
-    default_value='True',
+    default_value='false',
     description='Whether to use Gazebo gpu_ray or ray')
   gpu = LaunchConfiguration('gpu')
   robot_description = Command(['xacro',' ', xacro_path, ' gpu:=', gpu])

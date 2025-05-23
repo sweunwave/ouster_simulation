@@ -19,7 +19,7 @@ install(PROGRAMS
 )
 
 install(
-  DIRECTORY meshes urdf worlds rviz
+  DIRECTORY meshes urdf worlds rviz launch
   DESTINATION share/${PROJECT_NAME}
 )
 
